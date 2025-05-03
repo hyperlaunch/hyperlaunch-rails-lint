@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'hyperlaunch-rails-lint'
-  spec.version = '0.1.0'
+  spec.version = '0.1.1'
   spec.authors = ['Chris Garrett']
   spec.email = ['chris@hyperlaunch.com']
   spec.required_ruby_version = '>= 3.0.0'
@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.metadata['rubygems_mfa_required'] = 'true'
 
-  spec.files = %w[rubocop.yml]
+  spec.files = Dir['lib/**/*', 'rubocop.yml']
 end
