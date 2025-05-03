@@ -1,0 +1,2 @@
+inherit_gem:
+  hyperlaunch-rails-lint: rubocop.yml
