@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Installed by hyperlaunch‑rails‑lint
+
+echo "Running RuboCop autocorrect…"
+bundle exec rubocop -A
+status=$?
+
+if [ "$status" -ne 0 ]; then
+  echo "❌ RuboCop offences remain. Push aborted."
+  exit $status
+fi
+
+echo "✅ Clean – push continuing."

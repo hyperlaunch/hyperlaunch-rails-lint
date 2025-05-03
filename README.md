@@ -1,6 +1,6 @@
 # hyperlaunch-rails-lint
 
-Opinionated linting config for Hyperlaunch projects, includes Rubocop config and Ruby/Rails LSP.
+Opinionated linting config for Hyperlaunch projects, includes Rubocop config and Ruby/Rails LSP and a pre-push git hook. 
 
 ## Usage
 
@@ -10,8 +10,8 @@ Add to your project's Gemfile:
 bundle add hyperlaunch-rails-lint --group=development                                                 
 ```
 
-then generate your project's `.rubocop.yml` file:
+then generate your project's `.rubocop.yml` file and pre-push hook:
 
 ```bash
-bin/rails generate hyperlaunch_rails_lint:rubocop_config
+bin/rails generate hyperlaunch_rails_lint:lint_setup
 ```
