@@ -7,7 +7,7 @@ module HyperlaunchRailsLint
       source_root File.expand_path('templates', __dir__)
 
       def copy_rubocop_file
-        template '.rubocop.yml', '.rubocop.yml', force: false
+        template 'rubocop.yml', '.rubocop.yml', force: false
       end
     end
   end
