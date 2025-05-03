@@ -38,7 +38,3 @@ Metrics/CyclomaticComplexity:
 
 Metrics/PerceivedComplexity:
   Enabled: false
-
-Rails/DangerousColumnNames:
-  AllowedNames:
-    - id
