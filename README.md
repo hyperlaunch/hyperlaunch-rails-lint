@@ -13,5 +13,5 @@ bundle add hyperlaunch-rails-lint --group=development
 then generate your project's `.rubocop.yml` file and pre-push hook:
 
 ```bash
-bin/rails generate hyperlaunch_rails_lint:lint_setup
+bin/rails generate hyperlaunch:rails_lint_setup
 ```
